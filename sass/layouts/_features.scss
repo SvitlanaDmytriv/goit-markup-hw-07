@@ -1,0 +1,24 @@
+.features__item {
+	--grid__item: 4;
+}
+
+.features {
+	padding-top: 94px;
+	padding-bottom: 94px;
+}
+.features__title {
+	margin-bottom: 10px;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 1.14;
+	text-transform: uppercase;
+	color: var(--title-text-color);
+}
+
+.features__icon {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 120px;
+	background-color: var(--secondary-bg-color);
+}

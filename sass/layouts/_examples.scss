@@ -1,0 +1,63 @@
+.examples {
+	padding-top: 94px;
+	padding-bottom: 94px;
+}
+
+.examples__item {
+	--grid__item: 3;
+	transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.examples__item:hover {
+	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+		0px 2px 1px rgba(0, 0, 0, 0.2);
+	border-radius: 0px 0px 4px 4px;
+}
+.examples__title {
+	margin-bottom: 10px;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 2;
+	letter-spacing: 0.06em;
+	color: var(--title-text-color);
+}
+
+.examples__text {
+	font-size: 16px;
+	line-height: 1.87;
+}
+
+.examples__content {
+	padding: 20px 24px;
+	border-right: 1px solid #eeeeee;
+	border-bottom: 1px solid #eeeeee;
+	border-left: 1px solid #eeeeee;
+}
+.examples__work {
+	position: relative;
+	overflow: hidden;
+}
+.examples__overlay {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	transform: translateY(100%);
+	transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+	padding-left: 24px;
+	padding-right: 24px;
+	display: flex;
+	align-items: center;
+	background-color: rgba(33, 150, 243, 0.9);
+}
+
+.examples__overlay-text {
+	font-size: 18px;
+	line-height: 1.56;
+	color: var(--secondary-text-color);
+}
+.examples__item:hover .examples__overlay {
+	transform: translateY(0);
+}

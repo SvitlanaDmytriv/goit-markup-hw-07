@@ -1,0 +1,29 @@
+.header {
+	font-weight: 500;
+	line-height: 1.14;
+	letter-spacing: 0.02em;
+	border-bottom: 1px solid transparent;
+}
+.header__border {
+	border-bottom: 1px solid #ececec;
+}
+
+.header__site-nav {
+	margin-left: 93px;
+}
+
+.header__item:not(:last-child) {
+	margin-right: 50px;
+}
+
+.header__auth-nav {
+	margin-left: auto;
+}
+.header__container {
+	display: flex;
+	align-items: center;
+}
+.header__menu {
+	display: flex;
+	align-items: center;
+}
