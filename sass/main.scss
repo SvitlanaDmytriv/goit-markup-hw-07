@@ -2,6 +2,7 @@
 
 @import "./base/common";
 @import "./base/container";
+@import "./base/grid";
 
 @import "./components/button";
 @import "./components/social-list";
@@ -13,7 +14,6 @@
 @import "./layouts/site-nav";
 @import "./layouts/auth-nav";
 @import "./layouts/hero";
-@import "./layouts/grid";
 @import "./layouts/features";
 @import "./layouts/section";
 @import "./layouts/work";
